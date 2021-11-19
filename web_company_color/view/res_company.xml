@@ -16,9 +16,23 @@
                     groups="base.group_system"
                 >
                     <group string="Navbar Colors" name="navbar_colors">
-                        <field name="color_navbar_bg" widget="color" />
-                        <field name="color_navbar_bg_hover" widget="color" />
-                        <field name="color_navbar_text" widget="color" />
+                        <field name="color_navbar_bg" widget="color"/>
+                        <br/><field name="color_navbar_bg_hover" widget="color" />
+                        <br/><field name="color_navbar_text" widget="color" />
+                        <br/><field name="color_primbutton_bg" widget="color" />
+                        <br/><field name="color_primbutton_text" widget="color" />
+                        <br/><field name="color_primbutton_border" widget="color" />
+                        <br/><field name="color_linkbutton_text" widget="color" />
+                        <br/><field name="color_form_horizontal_separator" widget="color" />
+                        <br/><field name="color_form_uri" widget="color" />
+                        <br/><field name="color_statusbutton_icon" widget="color" />
+                        <br/><field name="color_statusbutton_value" widget="color" />
+                        <br/><field name="color_general_links" widget="color" />
+                        <br/><field name="color_chat_header" widget="color" />
+                        <br/><field name="color_chat_last" widget="color" />
+                        <br/><field name="color_extmodel_button" widget="color" />
+                        <br/><field name="color_search_filter" widget="color" />
+                        <br/><field name="color_discuss_active" widget="color" />
                     </group>
                     <div class="alert alert-info info_icon" role="alert">
                         <span class="fa fa-info fa-2x" />
