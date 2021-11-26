@@ -220,7 +220,7 @@ class ResCompany(models.Model):
                 "color_navbar_bg": (values.get("color_navbar_bg") or ""),
                 "color_navbar_bg_hover": (
                     values.get("color_navbar_bg_hover")
-                    or "$o-navbar-inverse-link-hover-bg"
+                    or ""
                 ),
                 "color_navbar_text": (values.get("color_navbar_text") or ""),
                 "color_primbutton_bg":values.get("color_primbutton_bg") or "",
